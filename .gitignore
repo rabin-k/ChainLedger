@@ -1,0 +1,36 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+# Ignore Rider IDE files
+.idea/
+*.iml
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore generated files
+Generated/
+*.cache
+*.db
+
+# Ignore secrets
+secrets.json
+.env
