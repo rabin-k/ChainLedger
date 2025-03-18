@@ -9,6 +9,9 @@ ChainLedger is a lightweight blockchain library for immutable data tracking, des
 ✅ Dependency Injection (DI) support  
 
 ## Usage
+### Using custom data type
+The method ```ToString()``` must be overridden.
+
 ### Registering with Dependency Injection
 ```csharp
 using Microsoft.Extensions.DependencyInjection;
